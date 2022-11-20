@@ -16,6 +16,18 @@
     {
       "packageName": "proj10hr10",
       "projectFolder": "apps/proj10hr10"
+    },
+    {
+      "packageName": "qk_client",
+      "projectFolder": "apps/qk_client"
+    },
+    {
+      "packageName": "qk_app1",
+      "projectFolder": "apps/qk_app1"
+    },
+    {
+      "packageName": "qk_app2",
+      "projectFolder": "apps/qk_app2"
     }
   ]
 }

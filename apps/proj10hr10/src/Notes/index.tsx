@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import { Button, TextArea } from "@douyinfe/semi-ui";
-import {IconDelete,  IconPlus, IconSave} from "@douyinfe/semi-icons";
+import { IconDelete, IconPlus, IconSave } from "@douyinfe/semi-icons";
 
 interface INote {
   idx: number;

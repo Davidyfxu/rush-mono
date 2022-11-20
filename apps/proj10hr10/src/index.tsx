@@ -24,7 +24,7 @@ import Notes from "./Notes";
 import GithubProfiles from "./GithubProfiles";
 
 const App = () => {
-  const {  Sider, Content } = Layout;
+  const { Sider, Content } = Layout;
   const url = window.location.href.split("/")[0];
 
   return (
@@ -103,7 +103,7 @@ const App = () => {
       <Content>
         <Routes>
           <Route path="CountdownTime" element={<CountdownTime />} />
-          <Route path="Quiz" element={<Quiz />}/>
+          <Route path="Quiz" element={<Quiz />} />
           <Route path="Recipe" element={<Recipe />} />
           <Route path="Notes" element={<Notes />} />
           <Route path="ToDo" element={<ToDo />} />

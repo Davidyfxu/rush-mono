@@ -28,6 +28,10 @@
     {
       "packageName": "qk_app2",
       "projectFolder": "apps/qk_app2"
+    }  ,
+    {
+      "packageName": "taro-react",
+      "projectFolder": "apps/taro-react"
     }
   ]
 }

@@ -14,33 +14,33 @@ You can find the original projects [here](https://10projects10hours.netlify.app/
 - future date
 - timer
 
-2. Quiz App
+2. Quiz Chapter6
 
 - Design: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 - questions from obj
 - select answer
 - at the end show score
 
-3. Recipe App
+3. Recipe Chapter6
 
 - Design: https://uidesigndaily.com/posts/sketch-recipe-app-food-mobile-day-615
 - recipe info on click
 - fav recipe (w/ localStorage)
 
-4. Notes App
+4. Notes Chapter6
 
 - Design: https://uidesigndaily.com/posts/photoshop-notes-widget-day-65
 - CRUD note
 - markdown
 - localStorage
 
-5. ToDo App
+5. ToDo Chapter6
 
 - Design: http://todomvc.com/examples/react/#/
 - CRUD todos
 - localStorage
 
-6. Movie App
+6. Movie Chapter6
 
 - Design: https://uidesigndaily.com/posts/photoshop-movie-app-mobile-day-193
 - list of movies
@@ -48,13 +48,13 @@ You can find the original projects [here](https://10projects10hours.netlify.app/
 - fav movie
 - actors
 
-7. GitHub Profiles App
+7. GitHub Profiles Chapter6
 
 - Design: https://uidesigndaily.com/posts/photoshop-profile-card-user-day-286
 - search for user
 - get and show data
 
-8. Drawing App
+8. Drawing Chapter6
 
 - canvas
 - size
@@ -68,7 +68,7 @@ You can find the original projects [here](https://10projects10hours.netlify.app/
 - symbols
 - copy to clipboard
 
-10. Weather App
+10. Weather Chapter6
 
 - Design: https://uidesigndaily.com/posts/photoshop-weather-prognosis-day-156
 - enter location

@@ -1,6 +1,6 @@
 import React from "react";
 
-function App() {
+function Chapter6() {
   return <div className="App">app2</div>;
 }
 

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import { Nav, Layout } from "@douyinfe/semi-ui";
 import {
   IconCalendarClock,
@@ -24,6 +24,7 @@ import Notes from "./Notes";
 import GithubProfiles from "./GithubProfiles";
 
 const App = () => {
+  const navigate = useNavigate();
   const { Sider, Content } = Layout;
   const url = window.location.href.split("/")[0];
 
@@ -37,55 +38,55 @@ const App = () => {
               itemKey: "CountdownTime",
               text: "CountdownTime",
               icon: <IconHourglass />,
-              link: `${url}CountdownTime`,
+              onClick: () => navigate("CountdownTime"),
             },
             {
               itemKey: "Quiz",
               text: "Quiz",
               icon: <IconCalendarClock />,
-              link: `${url}Quiz`,
+              onClick: () => navigate("Quiz"),
             },
             {
               itemKey: "Recipe",
               text: "Recipe",
               icon: <IconMenu />,
-              link: `${url}Recipe`,
+              onClick: () => navigate("Recipe"),
             },
             {
               itemKey: "Notes",
               text: "Notes",
               icon: <IconFile />,
-              link: `${url}Notes`,
+              onClick: () => navigate("Notes"),
             },
             {
               itemKey: "ToDo",
               text: "ToDo",
               icon: <IconList />,
-              link: `${url}ToDo`,
+              onClick: () => navigate("ToDo"),
             },
             {
               itemKey: "GitHubProfiles",
               text: "GitHubProfiles",
               icon: <IconGithubLogo />,
-              link: `${url}GitHubProfiles`,
+              onClick: () => navigate("GitHubProfiles"),
             },
             {
               itemKey: "Drawing",
               text: "Drawing",
               icon: <IconEdit />,
-              link: `${url}Drawing`,
+              onClick: () => navigate("Drawing"),
             },
             {
               itemKey: "PswGen",
               text: "PswGen",
               icon: <IconSafe />,
-              link: `${url}PswGen`,
+              onClick: () => navigate("PswGen"),
             },
             {
               itemKey: "Weather",
               text: "Weather",
               icon: <IconSun />,
-              link: `${url}Weather`,
+              onClick: () => navigate("Weather"),
             },
           ]}
           header={{

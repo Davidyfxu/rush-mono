@@ -5,7 +5,7 @@ import App from "./App";
 //
 // ReactDOM.render(
 //   <React.StrictMode>
-//     <App/>
+//     <Chapter6/>
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );

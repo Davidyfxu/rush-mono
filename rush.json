@@ -14,6 +14,10 @@
   "variants": [],
   "projects": [
     {
+      "packageName": "fullstackopen",
+      "projectFolder": "apps/fullstackopen"
+    },
+    {
       "packageName": "proj10hr10",
       "projectFolder": "apps/proj10hr10"
     },
@@ -28,7 +32,7 @@
     {
       "packageName": "qk_app2",
       "projectFolder": "apps/qk_app2"
-    }  ,
+    },
     {
       "packageName": "taro-react",
       "projectFolder": "apps/taro-react"
